@@ -1,0 +1,35 @@
+name = "hex-poly-z-mathlib"
+defaultTargets = ["HexPolyZMathlib"]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexPolyZ"
+git = "https://github.com/leanprover/hex-poly-z.git"
+rev = "9ae13de5ecabbcb2e418505e6463187ee89e5d46"
+
+[[require]]
+name = "HexHensel"
+git = "https://github.com/leanprover/hex-hensel.git"
+rev = "dc3d8ee06bf124993f4816d7952fe502fb23bd8e"
+
+[[require]]
+name = "HexPolyMathlib"
+git = "https://github.com/leanprover/hex-poly-mathlib.git"
+rev = "5541f9251d277359aac7727eaf789a13003ab1a8"
+
+[[require]]
+name = "HexModArithMathlib"
+git = "https://github.com/leanprover/hex-mod-arith-mathlib.git"
+rev = "e1406b42fc825f7ecd932d022b4f125ed888f357"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.32.2"
+
+[[lean_lib]]
+name = "HexPolyZMathlib"
