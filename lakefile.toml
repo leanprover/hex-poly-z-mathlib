@@ -14,7 +14,7 @@ rev = "e7b22902bf8001f15fbc0378bfae3a16197a8f5a"
 [[require]]
 name = "HexHensel"
 git = "https://github.com/leanprover/hex-hensel.git"
-rev = "675527689981fc1c7106b166a788b404735092e1"
+rev = "ceea063c0aff66dccd426a753f9590a89934d779"
 
 [[require]]
 name = "HexPolyMathlib"
