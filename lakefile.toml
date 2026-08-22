@@ -9,22 +9,22 @@ leanOptions = [
 [[require]]
 name = "HexPolyZ"
 git = "https://github.com/leanprover/hex-poly-z.git"
-rev = "7d7fdebb1bde00648a951177e3042a3ffbb2a8ea"
+rev = "0166cc099045e0366efd6a152f633c9e9baf0550"
 
 [[require]]
 name = "HexHensel"
 git = "https://github.com/leanprover/hex-hensel.git"
-rev = "604853baa6453ac620908f743cb2d736073a0868"
+rev = "51323f91ec9bae1cfa049a9e956bda69b5310ebb"
 
 [[require]]
 name = "HexPolyMathlib"
 git = "https://github.com/leanprover/hex-poly-mathlib.git"
-rev = "5897ba144a95f929e975c3eeb5a5c5a956f8e2ba"
+rev = "bc2b5505b543d9f0e6ef641901dab6c1bd97bf21"
 
 [[require]]
 name = "HexModArithMathlib"
 git = "https://github.com/leanprover/hex-mod-arith-mathlib.git"
-rev = "0aab0ebded5d539f581252e74540cbba48e6d89b"
+rev = "b7fa11ca42ab73c9970d051727b6e4013caf4e53"
 
 [[require]]
 name = "mathlib"
